@@ -1,4 +1,12 @@
 # GO
+## Basic
+* compiled
+* garbage collected
+* no VM
+* no generics
+* as simple as possible (spec is 20x smaller than scala)
+* fast
+
 ## Variables, functions, pointers
 * func main
 * var declaration, :=
@@ -12,14 +20,20 @@
 * if
 * for
 * switch
-* patten matching
+
+## Structures
+* arrays, slices
+* maps
+* structs
+* interfaces
+
 
 ## error handling
 * error
-* panic
+* panic, recover
 
-## extra
-* function method
-* http server - handle function
+## goroutines
+* start, wait
+
 
 
